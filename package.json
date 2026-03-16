@@ -1,0 +1,22 @@
+{
+  "name": "framecoach-blog-engine",
+  "version": "1.0.0",
+  "description": "Automated blog content engine for FrameCoach — generates filmmaking blog posts via Gemini and publishes to GitHub Pages",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:pretty": "node src/index.js | pino-pretty",
+    "validate": "node src/validate-test.js"
+  },
+  "keywords": ["framecoach", "filmmaking", "blog", "seo", "content-engine"],
+  "author": "theshumba",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^1.44.0",
+    "pino": "^10.3.1",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "pino-pretty": "^13.1.3"
+  }
+}

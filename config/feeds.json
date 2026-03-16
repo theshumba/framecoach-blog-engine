@@ -1,0 +1,45 @@
+{
+  "feeds": [
+    {
+      "id": "nofilmschool",
+      "name": "No Film School",
+      "url": "https://nofilmschool.com/rss.xml",
+      "keywords": ["filmmaking", "cinematography", "camera", "lens", "lighting", "director"]
+    },
+    {
+      "id": "petapixel",
+      "name": "PetaPixel",
+      "url": "https://petapixel.com/feed/",
+      "keywords": ["camera", "lens", "filmmaking", "video", "cinema", "filmmaker"]
+    },
+    {
+      "id": "indiewire",
+      "name": "IndieWire",
+      "url": "https://www.indiewire.com/feed/",
+      "keywords": ["filmmaker", "cinematography", "director", "indie film", "short film", "production"]
+    },
+    {
+      "id": "google-filmmaking",
+      "name": "Google News: Filmmaking",
+      "url": "https://news.google.com/rss/search?q=filmmaking+OR+cinematography+OR+%22indie+film%22&hl=en-US&gl=US&ceid=US:en",
+      "keywords": []
+    },
+    {
+      "id": "google-camera-gear",
+      "name": "Google News: Camera Gear",
+      "url": "https://news.google.com/rss/search?q=%22cinema+camera%22+OR+%22filmmaking+gear%22+OR+%22new+lens%22&hl=en-US&gl=US&ceid=US:en",
+      "keywords": []
+    }
+  ],
+  "globalKeywords": [
+    "filmmaking", "cinematography", "camera", "lens", "lighting",
+    "director", "cinematographer", "indie film", "short film",
+    "production", "post-production", "videography", "filmmaker"
+  ],
+  "excludeKeywords": [
+    "box office", "streaming wars", "celebrity", "red carpet",
+    "gossip", "dating", "divorce", "fashion", "outfit"
+  ],
+  "maxArticleAgeDays": 7,
+  "minArticlesRequired": 3
+}

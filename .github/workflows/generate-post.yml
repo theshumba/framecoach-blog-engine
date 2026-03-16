@@ -1,0 +1,120 @@
+# FrameCoach Blog Engine -- Automated Blog Post Pipeline
+# Generates a filmmaking blog post via Gemini and commits it to framecoach-blog
+#
+# Secrets required:
+#   GEMINI_API_KEY     - Google AI API key for Gemini 2.5 Flash
+#   BLOG_DEPLOY_TOKEN  - GitHub PAT with repo scope (to push to framecoach-blog)
+
+name: Generate Blog Post
+
+on:
+  schedule:
+    # Every 3 days at 10:00 UTC
+    - cron: '0 10 */3 * *'
+  workflow_dispatch: # Manual trigger from GitHub Actions UI
+
+permissions:
+  contents: write
+  actions: write
+  issues: write
+
+jobs:
+  generate-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      # --- Checkout this engine repo ---
+      - name: Checkout blog engine
+        uses: actions/checkout@v4
+        with:
+          path: engine
+
+      # --- Checkout the target blog repo ---
+      - name: Checkout framecoach-blog
+        uses: actions/checkout@v4
+        with:
+          repository: theshumba/framecoach-blog
+          token: ${{ secrets.BLOG_DEPLOY_TOKEN }}
+          path: blog
+
+      # --- Setup Node.js ---
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # --- Install dependencies ---
+      - name: Install dependencies
+        working-directory: engine
+        run: npm ci
+
+      # --- Run the content pipeline ---
+      - name: Run content pipeline
+        id: generate
+        working-directory: engine
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OUTPUT_DIR: output
+        run: node src/index.js
+
+      # --- Copy generated post to blog repo ---
+      - name: Copy post to blog
+        run: |
+          FILENAME=$(ls engine/output/*.md | head -1 | xargs basename)
+          echo "Post file: ${FILENAME}"
+          cp "engine/output/${FILENAME}" "blog/_posts/${FILENAME}"
+          echo "filename=${FILENAME}" >> $GITHUB_ENV
+
+      # --- Commit and push to framecoach-blog ---
+      - name: Commit and push to framecoach-blog
+        working-directory: blog
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "_posts/${{ env.filename }}"
+          git commit -m "publish: ${filename}"
+          git push
+
+      # --- Commit updated state back to engine repo ---
+      - name: Commit state update to engine
+        working-directory: engine
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add state/published-log.json
+          git diff --cached --quiet || git commit -m "state: update published log after ${filename}"
+          git pull --rebase origin main
+          git push
+
+      # --- Notify via GitHub Issue ---
+      - name: Notify -- new post published
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TITLE=$(head -5 "engine/output/${{ env.filename }}" | grep 'title:' | sed 's/title: *"//' | sed 's/"$//')
+          DATE=$(date -u +%Y-%m-%d)
+          gh issue create \
+            --repo ${{ github.repository }} \
+            --title "New post published: ${TITLE}" \
+            --body "A new blog post was automatically published to [framecoach-blog](https://theshumba.github.io/framecoach-blog/) on **${DATE}**.
+
+          **Title:** ${TITLE}
+          **File:** \`_posts/${{ env.filename }}\`
+          **Run:** ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+          This issue was created automatically by the FrameCoach Blog Engine." \
+            --label "published"
+
+  # Keepalive: prevent GitHub from disabling the cron after 60 days of inactivity
+  keepalive:
+    needs: generate-and-publish
+    if: failure()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Keepalive commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
+          git commit --allow-empty -m "chore: keepalive [skip ci]"
+          git push
