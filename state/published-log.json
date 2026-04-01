@@ -39,6 +39,14 @@
       "category": "cinematography",
       "date": "2026-03-31",
       "filename": "2026-03-31-mastering-aperture-shallow-depth-of-field-films.md"
+    },
+    {
+      "title": "Mastering Shutter Speed: The Essential 180-Degree Rule for 24fps Video",
+      "slug": "mastering-shutter-speed-180-degree-rule-24fps",
+      "keyword": "shutter speed for 24fps",
+      "category": "camera-settings",
+      "date": "2026-04-01",
+      "filename": "2026-04-01-mastering-shutter-speed-180-degree-rule-24fps.md"
     }
   ],
   "usedKeywords": [
@@ -46,7 +54,8 @@
     "how to shoot cinematic video",
     "filmmaking app for beginners",
     "best ISO for video",
-    "aperture for shallow depth of field"
+    "aperture for shallow depth of field",
+    "shutter speed for 24fps"
   ],
-  "lastRun": "2026-03-31T10:56:30.844Z"
+  "lastRun": "2026-04-01T11:00:56.209Z"
 }
