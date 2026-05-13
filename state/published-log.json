@@ -103,6 +103,14 @@
       "category": "filmmaking-tips",
       "date": "2026-05-10",
       "filename": "2026-05-10-mastering-silent-props-indie-filmmaking-tips.md"
+    },
+    {
+      "title": "Shoot Cinematic Video on Your Phone: A Smartphone Filmmaking Guide",
+      "slug": "shoot-cinematic-video-on-your-phone-smartphone-filmmaking-guide",
+      "keyword": "smartphone filmmaking guide",
+      "category": "smartphone-filmmaking",
+      "date": "2026-05-13",
+      "filename": "2026-05-13-shoot-cinematic-video-on-your-phone-smartphone-filmmaking-guide.md"
     }
   ],
   "usedKeywords": [
@@ -118,7 +126,8 @@
     "composition techniques film",
     "rule of thirds cinematography",
     "leading lines in movies",
-    "indie filmmaking tips"
+    "indie filmmaking tips",
+    "smartphone filmmaking guide"
   ],
-  "lastRun": "2026-05-10T11:02:11.912Z"
+  "lastRun": "2026-05-13T12:07:51.827Z"
 }
