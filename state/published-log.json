@@ -127,6 +127,14 @@
       "category": "filmmaking-tips",
       "date": "2026-05-25",
       "filename": "2026-05-25-best-filmmaking-assistant-apps.md"
+    },
+    {
+      "title": "The Essential Guide to AI-Powered Video Editing Tools for Filmmakers",
+      "slug": "ai-powered-video-editing-tools-filmmakers-guide",
+      "keyword": "AI filmmaking tools",
+      "category": "post-production",
+      "date": "2026-05-28",
+      "filename": "2026-05-28-ai-powered-video-editing-tools-filmmakers-guide.md"
     }
   ],
   "usedKeywords": [
@@ -145,7 +153,8 @@
     "indie filmmaking tips",
     "smartphone filmmaking guide",
     "budget filmmaking equipment",
-    "filmmaking assistant app"
+    "filmmaking assistant app",
+    "AI filmmaking tools"
   ],
-  "lastRun": "2026-05-25T13:32:18.464Z"
+  "lastRun": "2026-05-28T13:54:52.145Z"
 }
