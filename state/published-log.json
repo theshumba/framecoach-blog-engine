@@ -175,6 +175,14 @@
       "category": "post-production",
       "date": "2026-06-16",
       "filename": "2026-06-16-color-grading-101-beginners-guide.md"
+    },
+    {
+      "title": "Color Grading with AI: Enhancing Your Footage with New Technologies",
+      "slug": "color-grading-with-ai-enhancing-your-footage-with-new-technologies",
+      "keyword": "how to color grade footage",
+      "category": "post-production",
+      "date": "2026-06-22",
+      "filename": "2026-06-22-color-grading-with-ai-enhancing-your-footage-with-new-technologies.md"
     }
   ],
   "usedKeywords": [
@@ -199,7 +207,8 @@
     "how to light a scene for film",
     "three point lighting setup",
     "natural lighting for filmmaking",
-    "color grading for beginners"
+    "color grading for beginners",
+    "how to color grade footage"
   ],
-  "lastRun": "2026-06-16T15:10:53.285Z"
+  "lastRun": "2026-06-22T15:25:55.002Z"
 }
