@@ -183,6 +183,14 @@
       "category": "post-production",
       "date": "2026-06-22",
       "filename": "2026-06-22-color-grading-with-ai-enhancing-your-footage-with-new-technologies.md"
+    },
+    {
+      "title": "LUTs vs. Manual Color Grading: Which is Right for Your Filmmaking Workflow?",
+      "slug": "luts-vs-manual-color-grading-filmmaking-workflow",
+      "keyword": "LUT vs manual color grading",
+      "category": "post-production",
+      "date": "2026-06-25",
+      "filename": "2026-06-25-luts-vs-manual-color-grading-filmmaking-workflow.md"
     }
   ],
   "usedKeywords": [
@@ -208,7 +216,8 @@
     "three point lighting setup",
     "natural lighting for filmmaking",
     "color grading for beginners",
-    "how to color grade footage"
+    "how to color grade footage",
+    "LUT vs manual color grading"
   ],
-  "lastRun": "2026-06-22T15:25:55.002Z"
+  "lastRun": "2026-06-25T12:23:36.000Z"
 }
