@@ -207,6 +207,14 @@
       "category": "indie-filmmaking",
       "date": "2026-07-01",
       "filename": "2026-07-01-make-short-film-under-10k-step-by-step-guide-indie-success.md"
+    },
+    {
+      "title": "Directing Actors for Beginners: Practical Tips for First-Time Filmmakers",
+      "slug": "directing-actors-for-beginners-practical-tips-first-time-filmmakers",
+      "keyword": "directing actors for beginners",
+      "category": "filmmaking-tips",
+      "date": "2026-07-04",
+      "filename": "2026-07-04-directing-actors-for-beginners-practical-tips-first-time-filmmakers.md"
     }
   ],
   "usedKeywords": [
@@ -235,7 +243,8 @@
     "how to color grade footage",
     "LUT vs manual color grading",
     "filmmaking on a budget",
-    "how to make a short film"
+    "how to make a short film",
+    "directing actors for beginners"
   ],
-  "lastRun": "2026-07-01T12:35:11.091Z"
+  "lastRun": "2026-07-04T11:33:35.380Z"
 }
