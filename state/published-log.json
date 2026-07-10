@@ -215,6 +215,14 @@
       "category": "filmmaking-tips",
       "date": "2026-07-04",
       "filename": "2026-07-04-directing-actors-for-beginners-practical-tips-first-time-filmmakers.md"
+    },
+    {
+      "title": "The Art of Movement: A Filmmaker's Guide to Dynamic Camera Techniques",
+      "slug": "art-of-movement-filmmakers-guide-dynamic-camera-techniques",
+      "keyword": "camera movement techniques film",
+      "category": "cinematography",
+      "date": "2026-07-10",
+      "filename": "2026-07-10-art-of-movement-filmmakers-guide-dynamic-camera-techniques.md"
     }
   ],
   "usedKeywords": [
@@ -244,7 +252,8 @@
     "LUT vs manual color grading",
     "filmmaking on a budget",
     "how to make a short film",
-    "directing actors for beginners"
+    "directing actors for beginners",
+    "camera movement techniques film"
   ],
-  "lastRun": "2026-07-04T11:33:35.380Z"
+  "lastRun": "2026-07-10T12:26:33.804Z"
 }
