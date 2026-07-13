@@ -223,6 +223,14 @@
       "category": "cinematography",
       "date": "2026-07-10",
       "filename": "2026-07-10-art-of-movement-filmmakers-guide-dynamic-camera-techniques.md"
+    },
+    {
+      "title": "The Dolly Zoom Explained: Mastering the Vertigo Effect in Your Films",
+      "slug": "dolly-zoom-explained",
+      "keyword": "dolly zoom explained",
+      "category": "cinematography",
+      "date": "2026-07-13",
+      "filename": "2026-07-13-dolly-zoom-explained.md"
     }
   ],
   "usedKeywords": [
@@ -253,7 +261,8 @@
     "filmmaking on a budget",
     "how to make a short film",
     "directing actors for beginners",
-    "camera movement techniques film"
+    "camera movement techniques film",
+    "dolly zoom explained"
   ],
-  "lastRun": "2026-07-10T12:26:33.804Z"
+  "lastRun": "2026-07-13T12:33:05.632Z"
 }
