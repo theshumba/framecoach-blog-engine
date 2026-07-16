@@ -231,6 +231,14 @@
       "category": "cinematography",
       "date": "2026-07-13",
       "filename": "2026-07-13-dolly-zoom-explained.md"
+    },
+    {
+      "title": "Mastering Dynamic Shots: Essential Handheld Camera Techniques for Filmmakers",
+      "slug": "mastering-dynamic-shots-essential-handheld-camera-techniques-for-filmmakers",
+      "keyword": "handheld camera techniques",
+      "category": "cinematography",
+      "date": "2026-07-16",
+      "filename": "2026-07-16-mastering-dynamic-shots-essential-handheld-camera-techniques-for-filmmakers.md"
     }
   ],
   "usedKeywords": [
@@ -262,7 +270,8 @@
     "how to make a short film",
     "directing actors for beginners",
     "camera movement techniques film",
-    "dolly zoom explained"
+    "dolly zoom explained",
+    "handheld camera techniques"
   ],
-  "lastRun": "2026-07-13T12:33:05.632Z"
+  "lastRun": "2026-07-16T11:42:16.414Z"
 }
