@@ -239,6 +239,14 @@
       "category": "cinematography",
       "date": "2026-07-16",
       "filename": "2026-07-16-mastering-dynamic-shots-essential-handheld-camera-techniques-for-filmmakers.md"
+    },
+    {
+      "title": "Gimbal vs. Steadicam: Choosing the Right Stabilizer for Your Film",
+      "slug": "gimbal-vs-steadicam-for-film",
+      "keyword": "gimbal vs steadicam for film",
+      "category": "gear",
+      "date": "2026-07-19",
+      "filename": "2026-07-19-gimbal-vs-steadicam-for-film.md"
     }
   ],
   "usedKeywords": [
@@ -271,7 +279,8 @@
     "directing actors for beginners",
     "camera movement techniques film",
     "dolly zoom explained",
-    "handheld camera techniques"
+    "handheld camera techniques",
+    "gimbal vs steadicam for film"
   ],
-  "lastRun": "2026-07-16T11:42:16.414Z"
+  "lastRun": "2026-07-19T11:10:15.057Z"
 }
