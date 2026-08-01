@@ -271,6 +271,14 @@
       "category": "cinematography",
       "date": "2026-07-28",
       "filename": "2026-07-28-anamorphic-look-on-budget-lenses-techniques.md"
+    },
+    {
+      "title": "Cinema Camera vs. Mirrorless: Choosing the Right Tool for Your Indie Film",
+      "slug": "cinema-camera-vs-mirrorless",
+      "keyword": "cinema camera vs mirrorless",
+      "category": "gear",
+      "date": "2026-08-01",
+      "filename": "2026-08-01-cinema-camera-vs-mirrorless.md"
     }
   ],
   "usedKeywords": [
@@ -307,7 +315,8 @@
     "gimbal vs steadicam for film",
     "best lenses for filmmaking",
     "prime vs zoom lens filmmaking",
-    "anamorphic lens look on budget"
+    "anamorphic lens look on budget",
+    "cinema camera vs mirrorless"
   ],
-  "lastRun": "2026-07-28T11:59:49.247Z"
+  "lastRun": "2026-08-01T11:18:06.986Z"
 }
