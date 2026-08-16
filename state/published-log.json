@@ -295,6 +295,14 @@
       "category": "camera-settings",
       "date": "2026-08-10",
       "filename": "2026-08-10-mastering-slow-motion-essential-camera-settings-techniques.md"
+    },
+    {
+      "title": "Mastering Frame Rates: A Filmmaker's Guide to Choosing the Right FPS for Every Scene",
+      "slug": "mastering-frame-rates-filmmakers-guide-choosing-right-fps-every-scene",
+      "keyword": "frame rate guide for filmmakers",
+      "category": "camera-settings",
+      "date": "2026-08-16",
+      "filename": "2026-08-16-mastering-frame-rates-filmmakers-guide-choosing-right-fps-every-scene.md"
     }
   ],
   "usedKeywords": [
@@ -334,7 +342,8 @@
     "anamorphic lens look on budget",
     "cinema camera vs mirrorless",
     "best camera for indie filmmaking",
-    "how to shoot slow motion video"
+    "how to shoot slow motion video",
+    "frame rate guide for filmmakers"
   ],
-  "lastRun": "2026-08-10T11:11:16.466Z"
+  "lastRun": "2026-08-16T10:24:59.657Z"
 }
