@@ -303,6 +303,14 @@
       "category": "camera-settings",
       "date": "2026-08-16",
       "filename": "2026-08-16-mastering-frame-rates-filmmakers-guide-choosing-right-fps-every-scene.md"
+    },
+    {
+      "title": "Mastering Aspect Ratios for a Cinematic Look: A Comprehensive Guide for Filmmakers",
+      "slug": "mastering-aspect-ratios-cinematic-look",
+      "keyword": "aspect ratio for cinematic look",
+      "category": "cinematography",
+      "date": "2026-08-19",
+      "filename": "2026-08-19-mastering-aspect-ratios-cinematic-look.md"
     }
   ],
   "usedKeywords": [
@@ -343,7 +351,8 @@
     "cinema camera vs mirrorless",
     "best camera for indie filmmaking",
     "how to shoot slow motion video",
-    "frame rate guide for filmmakers"
+    "frame rate guide for filmmakers",
+    "aspect ratio for cinematic look"
   ],
-  "lastRun": "2026-08-16T10:24:59.657Z"
+  "lastRun": "2026-08-19T10:31:19.780Z"
 }
