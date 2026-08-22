@@ -311,6 +311,14 @@
       "category": "cinematography",
       "date": "2026-08-19",
       "filename": "2026-08-19-mastering-aspect-ratios-cinematic-look.md"
+    },
+    {
+      "title": "Log vs. Rec.709: Demystifying Color Spaces for Filmmakers",
+      "slug": "log-vs-rec709-demystifying-color-spaces-for-filmmakers",
+      "keyword": "log vs rec709 shooting",
+      "category": "post-production",
+      "date": "2026-08-22",
+      "filename": "2026-08-22-log-vs-rec709-demystifying-color-spaces-for-filmmakers.md"
     }
   ],
   "usedKeywords": [
@@ -352,7 +360,8 @@
     "best camera for indie filmmaking",
     "how to shoot slow motion video",
     "frame rate guide for filmmakers",
-    "aspect ratio for cinematic look"
+    "aspect ratio for cinematic look",
+    "log vs rec709 shooting"
   ],
-  "lastRun": "2026-08-19T10:31:19.780Z"
+  "lastRun": "2026-08-22T10:28:01.963Z"
 }
