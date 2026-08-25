@@ -319,6 +319,14 @@
       "category": "post-production",
       "date": "2026-08-22",
       "filename": "2026-08-22-log-vs-rec709-demystifying-color-spaces-for-filmmakers.md"
+    },
+    {
+      "title": "Mastering Video Exposure: A Guide to Achieving Correct Brightness and Detail",
+      "slug": "mastering-video-exposure-correctly",
+      "keyword": "how to expose for video correctly",
+      "category": "camera-settings",
+      "date": "2026-08-25",
+      "filename": "2026-08-25-mastering-video-exposure-correctly.md"
     }
   ],
   "usedKeywords": [
@@ -361,7 +369,8 @@
     "how to shoot slow motion video",
     "frame rate guide for filmmakers",
     "aspect ratio for cinematic look",
-    "log vs rec709 shooting"
+    "log vs rec709 shooting",
+    "how to expose for video correctly"
   ],
-  "lastRun": "2026-08-22T10:28:01.963Z"
+  "lastRun": "2026-08-25T10:34:38.191Z"
 }
