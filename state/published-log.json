@@ -327,6 +327,14 @@
       "category": "camera-settings",
       "date": "2026-08-25",
       "filename": "2026-08-25-mastering-video-exposure-correctly.md"
+    },
+    {
+      "title": "Mastering Exposure with a Waveform Monitor: A Filmmaker's Guide",
+      "slug": "mastering-exposure-waveform-monitor-filmmakers",
+      "keyword": "waveform monitor for filmmakers",
+      "category": "cinematography",
+      "date": "2026-08-28",
+      "filename": "2026-08-28-mastering-exposure-waveform-monitor-filmmakers.md"
     }
   ],
   "usedKeywords": [
@@ -370,7 +378,8 @@
     "frame rate guide for filmmakers",
     "aspect ratio for cinematic look",
     "log vs rec709 shooting",
-    "how to expose for video correctly"
+    "how to expose for video correctly",
+    "waveform monitor for filmmakers"
   ],
-  "lastRun": "2026-08-25T10:34:38.191Z"
+  "lastRun": "2026-08-28T21:08:41.815Z"
 }
