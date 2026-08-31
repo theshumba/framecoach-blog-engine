@@ -335,6 +335,14 @@
       "category": "cinematography",
       "date": "2026-08-28",
       "filename": "2026-08-28-mastering-exposure-waveform-monitor-filmmakers.md"
+    },
+    {
+      "title": "The Essential Guide to Sound Design for Short Films: Elevate Your Storytelling",
+      "slug": "sound-design-short-films-guide",
+      "keyword": "sound design for short films",
+      "category": "post-production",
+      "date": "2026-08-31",
+      "filename": "2026-08-31-sound-design-short-films-guide.md"
     }
   ],
   "usedKeywords": [
@@ -379,7 +387,8 @@
     "aspect ratio for cinematic look",
     "log vs rec709 shooting",
     "how to expose for video correctly",
-    "waveform monitor for filmmakers"
+    "waveform monitor for filmmakers",
+    "sound design for short films"
   ],
-  "lastRun": "2026-08-28T21:08:41.815Z"
+  "lastRun": "2026-08-31T17:27:09.161Z"
 }
