@@ -343,6 +343,14 @@
       "category": "post-production",
       "date": "2026-08-31",
       "filename": "2026-08-31-sound-design-short-films-guide.md"
+    },
+    {
+      "title": "Mastering On-Set Dialogue Recording: A Filmmaker's Guide to Pristine Audio",
+      "slug": "mastering-on-set-dialogue-recording-filmmakers-guide",
+      "keyword": "how to record dialogue on set",
+      "category": "filmmaking-tips",
+      "date": "2026-09-04",
+      "filename": "2026-09-04-mastering-on-set-dialogue-recording-filmmakers-guide.md"
     }
   ],
   "usedKeywords": [
@@ -388,7 +396,8 @@
     "log vs rec709 shooting",
     "how to expose for video correctly",
     "waveform monitor for filmmakers",
-    "sound design for short films"
+    "sound design for short films",
+    "how to record dialogue on set"
   ],
-  "lastRun": "2026-08-31T17:27:09.161Z"
+  "lastRun": "2026-09-04T14:03:56.957Z"
 }
