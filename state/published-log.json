@@ -351,6 +351,14 @@
       "category": "filmmaking-tips",
       "date": "2026-09-04",
       "filename": "2026-09-04-mastering-on-set-dialogue-recording-filmmakers-guide.md"
+    },
+    {
+      "title": "Mastering B-Roll: Essential Filmmaking Tips for Dynamic Visual Storytelling",
+      "slug": "mastering-b-roll-filmmaking-tips",
+      "keyword": "b-roll filmmaking tips",
+      "category": "filmmaking-tips",
+      "date": "2026-09-07",
+      "filename": "2026-09-07-mastering-b-roll-filmmaking-tips.md"
     }
   ],
   "usedKeywords": [
@@ -397,7 +405,8 @@
     "how to expose for video correctly",
     "waveform monitor for filmmakers",
     "sound design for short films",
-    "how to record dialogue on set"
+    "how to record dialogue on set",
+    "b-roll filmmaking tips"
   ],
-  "lastRun": "2026-09-04T14:03:56.957Z"
+  "lastRun": "2026-09-07T15:35:27.181Z"
 }
