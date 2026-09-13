@@ -367,6 +367,14 @@
       "category": "filmmaking-tips",
       "date": "2026-09-10",
       "filename": "2026-09-10-shot-list-template-filmmaking.md"
+    },
+    {
+      "title": "Storyboarding for Beginners: Visualizing Your Film from Script to Screen",
+      "slug": "storyboarding-for-beginners",
+      "keyword": "storyboarding for beginners",
+      "category": "filmmaking-tips",
+      "date": "2026-09-13",
+      "filename": "2026-09-13-storyboarding-for-beginners.md"
     }
   ],
   "usedKeywords": [
@@ -415,7 +423,8 @@
     "sound design for short films",
     "how to record dialogue on set",
     "b-roll filmmaking tips",
-    "shot list template filmmaking"
+    "shot list template filmmaking",
+    "storyboarding for beginners"
   ],
-  "lastRun": "2026-09-10T14:07:52.537Z"
+  "lastRun": "2026-09-13T14:09:34.280Z"
 }
