@@ -431,6 +431,14 @@
       "category": "cinematography",
       "date": "2026-10-07",
       "filename": "2026-10-07-achieving-film-grain-look-digital-filmmakers-guide.md"
+    },
+    {
+      "title": "Achieving the Vintage Film Look: Essential Camera Settings for Digital Filmmakers",
+      "slug": "vintage-film-look-camera-settings-guide",
+      "keyword": "vintage film look camera settings",
+      "category": "camera-settings",
+      "date": "2026-10-13",
+      "filename": "2026-10-13-vintage-film-look-camera-settings-guide.md"
     }
   ],
   "usedKeywords": [
@@ -487,7 +495,8 @@
     "how to film in low light",
     "depth of field explained filmmaking",
     "rack focus technique film",
-    "film grain look digital camera"
+    "film grain look digital camera",
+    "vintage film look camera settings"
   ],
-  "lastRun": "2026-10-07T17:20:23.657Z"
+  "lastRun": "2026-10-13T17:25:56.814Z"
 }
