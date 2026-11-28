@@ -551,6 +551,14 @@
       "category": "smartphone-filmmaking",
       "date": "2026-11-25",
       "filename": "2026-11-25-best-filmmaking-apps-for-beginners-smartphone.md"
+    },
+    {
+      "title": "Mastering the Dolly Zoom: A Filmmaker's Guide to the Vertigo Effect",
+      "slug": "mastering-dolly-zoom-vertigo-effect-guide",
+      "keyword": "dolly zoom explained",
+      "category": "cinematography",
+      "date": "2026-11-28",
+      "filename": "2026-11-28-mastering-dolly-zoom-vertigo-effect-guide.md"
     }
   ],
   "usedKeywords": [
@@ -622,7 +630,8 @@
     "cinema camera vs mirrorless",
     "how to color grade footage",
     "how to expose for video correctly",
-    "filmmaking app for beginners"
+    "filmmaking app for beginners",
+    "dolly zoom explained"
   ],
-  "lastRun": "2026-11-25T19:48:34.816Z"
+  "lastRun": "2026-11-28T18:00:24.695Z"
 }
